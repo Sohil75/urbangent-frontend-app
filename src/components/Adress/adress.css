@@ -1,0 +1,87 @@
+.addresspage {
+    display: flex;
+    justify-content: space-between; /* Aligns child elements horizontally */
+    align-items: flex-start; /* Aligns items at the top */
+    min-width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 5vw;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    color: #555;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 2vh;
+  }
+  
+  .field1 {
+    width: 65%;
+  }
+  
+  .addresspage input,
+  .addresspage textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .addresspage textarea {
+    height: 100px;
+  }
+  
+  .payment {
+    margin-top: 20px;
+  }
+  
+  .selectPayment {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .placeOrder {
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #f5a623;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .placeOrder:hover {
+    background-color: #333;
+  }
+  
+  .price-details-sections {
+    width: 30%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .price-rows {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  .price-row.totals {
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+  }
